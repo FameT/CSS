@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>Design & Development</title>
+        <style>
+            * {
+                padding: 0;
+                margin: 0;
+            }
+
+            html {
+                background-image:
+                    linear-gradient(cyan, transparent),
+                    linear-gradient(225deg, magenta, transparent),
+                    linear-gradient(45deg, yellow, transparent);
+            }
+
+
+            .circles {
+                box-sizing: border-box;
+                display: block;
+                height: 100%;
+                width: 100%;
+                border: 0;
+                margin: 0;
+                min-width: 1140px;
+
+                font-size: 3.5em;
+                font-family: sans-serif;
+                font-weight: bold;
+                color: white;
+
+                background:
+                    radial-gradient(circle at 37% 50%, rgba(244, 188, 66, 0.85) 25%, transparent 25%, transparent 100%),
+                    radial-gradient(circle at 63% 50%, rgba(126, 150, 19, 0.85) 25%, transparent 25%, transparent 100%);
+                background-blend-mode: multiply;
+            }
+            /*multiply, screen, overlay, darken, lighten, color-dodge, color-burn, hard-light, soft-light, difference, exclusion, hue, saturation, color and luminosity.*/
+            .text {
+                position: absolute;
+                top: 50%;
+                transform: translate(-50%,-50%);
+            }
+
+            .design {
+                left: 37%;
+            }
+
+            .develop {
+                left: 63%;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="circles">
+            <span class="text design">Design</span>
+            <span class="text develop">Development</span>
+        </div>
+    </body>
+</html>
