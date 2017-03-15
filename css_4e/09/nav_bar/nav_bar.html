@@ -50,11 +50,17 @@
             margin: 0;
             padding: 0;
             list-style: none;
-            width: 175px;
         }
 
+            .mainNav li {
+                float: left;
+                width: 14em;
+                display: inline-block;
+                text-align: center;
+            }
+
             .mainNav li:last-of-type a {
-                border-bottom: 1px dashed #999;
+                border-right: 1px dashed #999;
             }
 
             .mainNav a {
@@ -63,13 +69,14 @@
                 text-transform: uppercase;
                 text-decoration: none;
                 border: 1px dashed #999999;
-                border-bottom: none;
+                border-right: none;
                 padding: 7px 5px 7px 30px;
                 display: block;
                 background-color: #E7E7E7;
                 background-image: url(images/nav.png);
                 background-repeat: no-repeat;
                 background-position: 0 2px;
+                text-align: center;
             }
 
                 .mainNav a:hover {
@@ -86,7 +93,8 @@
         .horoscope .horoscopeLink {
             background-color: #E7E7E7;
             background: url(images/home.png) no-repeat;
-            background-position-x: 97%;
+            background-position-x: 3%;
+            background-position-y: 50%;
             background-color: #E7E7E7;
             padding-right: 15px;
             padding-left: 30px;
@@ -99,8 +107,7 @@
             .quiz .quizLink:hover,
             .project .projectLink:hover,
             .horoscope .horoscopeLink:hover {
-                background: url(images/nav.png) no-repeat 3% 50%,
-                            url(images/home.png) no-repeat 97% 0;
+                background: url(images/nav.png) no-repeat 3% 50%;
                 background-color: #B2F511;
                 font-weight: normal;
             }
