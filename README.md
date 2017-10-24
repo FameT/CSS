@@ -41,3 +41,7 @@ https://www.html5rocks.com/en/tutorials/speed/high-performance-animations/ - а�
 
 #Формы
 http://html5doctor.com/css3-pseudo-classes-and-html5-forms/
+
+#Верстка
+https://css-tricks.com/fluid-width-equal-height-columns/ - многоколоночная верстка
+https://webdesign.tutsplus.com/tutorials/quick-tip-solving-the-equal-height-column-conundrum--cms-20403 - аналогично
